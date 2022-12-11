@@ -16,13 +16,6 @@
 - [ ] Class 3
 <br/>
 
-## 🖤 MY BLOG
-
-티스토리 블로그 : [코딩수용소](https://oteosuk.tistory.com/)
-
-
-<br/>
-
 ## 🖤 C++ 재도전할 문제들
 
 ##### 🤎BRONZE 5
@@ -33,15 +26,4 @@
 ##### 🤎BRONZE 4
 [5893(17배)](https://www.acmicpc.net/problem/5893) / [16428(A/B-3)](https://www.acmicpc.net/problem/16428)
 
-<br/>
-
-## 🖤 (부록) 유니티 프로젝트
-
-### 1. [패스파인딩, 멀티보이스좀비게임](https://github.com/oteosuk/Unity_Project)
-
-### 2. [탄막슈팅게임] : 완성
-
-### 3. [좀비서바이벌게임] : 완성
-
-<br/>
 <br/>
