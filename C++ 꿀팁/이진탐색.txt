@@ -1,0 +1,4 @@
+
+[ÀÌÁøÅ½»ö STL]
+
+binary_search(arr, arr + n, 105)

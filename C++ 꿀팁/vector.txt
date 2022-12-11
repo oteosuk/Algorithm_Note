@@ -1,0 +1,20 @@
+
+[벡터에서 문자열 탐색 및 벡터에 문자열 삽입]
+
+string s;
+cin >> s;
+if (find(vec.begin(), vec.end(), s) == vec.end())  => vec을 다 탐색해서 s가 없으면 vec.end() 반환
+	vec.push_back(s);                              => 즉 입력받은 s가 vec에 없다면 push_back 즉 뒤에 s를 삽입
+
+===================================================================================================
+
+[벡터 sort함수로 정렬하기]
+
+bool compare(string a, string b)       => 밑에 sort함수에 넣을 조건
+{
+	if (a.length() == b.length())
+		return a < b;                  => a와 b가 길이가 같다면, 자동으로 사전상으로 더 먼저오는걸 앞에
+	return a.length() < b.length();    => a 와 b가 길이가 다르다면 더 짧은게 앞에
+}
+
+sort(vec.begin(), vec.end(), compare); => 위에 작성한 compare 함수 조건에 맞게 정렬한다.

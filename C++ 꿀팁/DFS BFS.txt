@@ -1,0 +1,36 @@
+
+[DFS]
+
+void DFS(int v) {
+    visited[v] = 1;
+    cout << v << " ";
+
+    for (int i = 1; i <= N; i++) {
+        if (map[v][i] == 1 && visited[i] == 0) {
+            DFS(i);
+        }
+    }
+}
+
+===============================================================
+
+[BFS]
+
+void BFS(int v) {
+    q.push(v);
+    visited[v] = 1;
+    cout << v << " ";
+
+    while (!q.empty()) {
+        v = q.front();
+        q.pop();
+
+        for (int w = 1; w <= N; w++) {
+            if (map[v][w] == 1 && visited[w] == 0) {
+                q.push(w);
+                visited[w] = true;
+                cout << w << " ";
+            }
+        }
+    }
+}

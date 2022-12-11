@@ -1,0 +1,40 @@
+
+[에라스토테네스의 체(소수 판별)]
+
+const int MAX = 1000000 + 1;
+
+int chae[MAX];
+vector<int> primeNumbers;
+
+void eratosthenes(int K)
+{
+	chae[0] = chae[1] = -1;
+
+	for (int i = 2; i < K; i++)                  => 체의 1제외 K까지 쭉 대입
+	{
+		chae[i] = i;
+	}
+
+	for (int i = 2; i * i < K; i++)
+	{
+		if (chae[i] == i) // 소수발견 2..3..5..7..
+		{
+			for (int j = i * i; j < K; j += i)
+			{
+				if (chae[j] == j)
+				{
+					chae[j] = i;                 => 소수i의 배수들 전부 i로 바꿈
+				}
+			}
+		}
+	}
+
+	for (int i = 2; i < K; i++)
+	{
+		if (chae[i] == i)                        => 생존한 소수들만 벡터에 삽입
+		{
+			primeNumbers.push_back(i);
+		}
+	}
+}
+eratosthenes(100)                                => 100미만의 소수거르기
