@@ -13,8 +13,5 @@
     <ClCompile Include="Class3\BOJ 1260.cpp">
       <Filter>Class3</Filter>
     </ClCompile>
-    <ClCompile Include="..\Test\제출용.cpp">
-      <Filter>Bronze3</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>
