@@ -16,13 +16,6 @@
 - [ ] Class 3
 <br/>
 
-## 🖤 MY BLOG
-
-티스토리 블로그 : [코딩수용소](https://oteosuk.tistory.com/)
-
-
-<br/>
-
 ## 🖤 C++ 재도전할 문제들
 
 ##### 🤎BRONZE 5
