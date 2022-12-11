@@ -37,9 +37,11 @@
 
 ## 🖤 (부록) 유니티 프로젝트
 
-### 1. [패스파인딩](https://github.com/oteosuk/Unity_Project)
+### 1. [패스파인딩, 멀티보이스좀비게임](https://github.com/oteosuk/Unity_Project)
 
-### 2. [탄막슈팅게임] : 진행중
+### 2. [탄막슈팅게임] : 완성
+
+### 3. [좀비서바이벌게임] : 완성
 
 <br/>
 <br/>
