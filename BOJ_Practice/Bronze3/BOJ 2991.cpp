@@ -24,7 +24,7 @@ int main() {
     cout.tie(NULL);
 
     cin >> A >> B >> C >> D;
-    int P, M, N; 
+    int P, M, N;
     cin >> P >> M >> N;
 
     dogattack(P);
