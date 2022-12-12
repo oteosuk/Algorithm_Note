@@ -1,0 +1,8 @@
+
+#include <cstdio>   printf(), scanf()
+#include <cstring>  memset()
+#include <cmath>    sqrt(), pow(), abs()
+#include <cstdlib>  abs()
+
+#include <algorithm> max(), min(), fill()
+#include <string> string(), stoi()

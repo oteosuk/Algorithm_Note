@@ -1,0 +1,62 @@
+
+[pair 비교]
+
+bool compare(pair<int, int> a, pair<int, int> b)
+{
+    if (a.second == b.second) {
+        return a.first < b.first;
+    }
+    return a.second > b.second;
+}
+
+=========================================================
+
+[pair 큐 주의사항]
+
+pair<int, int> (x,y) = q.front(); 하면 왜인지는 모르겠지만 저장이 되지않는다.
+
+x = q.front().first;
+y = q.front().second;
+를 하던가
+
+pair<int,int> a = q.front();
+x = a.first;
+y = a.second;
+를 해줘야한다.
+
+=========================================================
+
+[pair<int,int>(x,y) pair{x,y}와 makr_pair(x,y)의 차이]
+
+q.push(pair<int,int>(x,y)) 방법이 있고
+q.push(make_pair(x,y)) 방법이 있다.
+별차이는 없는것 같다.
+
+다만 == 비교할때
+
+pair<int, int> p;
+
+p = {1, 2}; 일때
+
+p == pair<int, int>(1,2)
+p == make_pair(1, 2)
+
+는 되는데
+
+p == pair{1,2}는 c++14버전은 되지않지만 c++17버전은 된다.
+
+1. 프로젝트 -> 속성 -> C/C++ -> 모든 옵션 -> C++ 언어 표준*
+
+여기서 바꾸거나
+
+2. 프로젝트 -> 속성 -> C/C++ -> 명령줄 -> 추가옵션글상자
+
+글상자에 밑에서 원하는 속성을 넣어주면 된다.
+
+/std:c++14
+
+/std:c++17
+
+/std:c++latest
+
+=========================================================

@@ -1,2 +1,22 @@
 
-[추가할 예정]
+[map]
+
+map<string, int> m;
+string s; int i;
+m.insert(make_pair(s, i)); // 값을 넣을때
+
+헐 근데 위에처럼안하고 그냥
+
+m[s]++; 해도 넣어지네..? 근데 (s, 1) 이런식으로됌; 기본적으로 value가 0인가보다
+m[s]; 이렇게 해도 넣어지는듯
+
+m.find(s) != m.end() 이면 s가 존재하는것! m이 존재안하면 m.find(s)는 m.end()다.
+
+1.
+cout << m[s]; 
+=> key s의 value를 출력
+
+2.
+auto x = m.find(s);
+cout << x->second << endl;
+=> key s 를 찾고 x->second는 그s의 value값이다.

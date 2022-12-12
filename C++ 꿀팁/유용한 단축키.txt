@@ -1,0 +1,11 @@
+
+[유용한 단축키]
+
+shift+alt+enter => 전체화면
+ctrl + alt + L => 솔루션탐색기 열기
+ctrl + space => 자동완성
+shift + home => 커서로부터 맨 앞까지 드래그
+ctrl + <- / -> 단어단위로 커서이동
+ctrl + shift + <- / -> 단어단위로 커서이동하면서 드래그
+alt + 위아래 => 줄 상하로 이동
+ctrl + tap => 스크립트 탭 변경

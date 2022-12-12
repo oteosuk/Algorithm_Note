@@ -34,3 +34,46 @@ void BFS(int v) {
         }
     }
 }
+
+===============================================================
+
+[BFS그래프 문제]
+
+using pii = pair<int, int>;
+
+const int MAX_ROWS = 50;
+const int MAX_COLUMS = 50;
+
+int baechu[MAX_ROWS][MAX_COLUMS];
+int visited[MAX_ROWS][MAX_COLUMS];
+
+동서남북
+int dx[4] = { -1, 0, 1, 0 };
+int dy[4] = { 0, 1, 0, -1 };
+
+void bfs(int x, int y) {//x행 y열
+
+	q.push(pii(x, y));
+
+	while (!q.empty()) {
+
+		pii now = q.front();
+		x = now.first;
+		y = now.second;
+
+		q.pop();
+
+		for (int i = 0; i < 4; i++) {
+			int nx = x + dx[i];
+			int ny = y + dy[i];
+
+			if (0 > nx || nx >= N || 0 > ny || ny >= M) continue;
+
+			if ((baechu[nx][ny] == 1) && (visited[nx][ny] == 0)) {
+				visited[nx][ny] = 1;
+				q.push(pii(nx, ny));
+			}
+		}
+	}
+	cnt++;
+}
