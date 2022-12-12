@@ -31,5 +31,29 @@
     <Text Include="이진탐색.txt">
       <Filter>꿀팁들</Filter>
     </Text>
+    <Text Include="pair.txt">
+      <Filter>꿀팁들</Filter>
+    </Text>
+    <Text Include="배열.txt">
+      <Filter>꿀팁들</Filter>
+    </Text>
+    <Text Include="상수, 변수 선언.txt">
+      <Filter>꿀팁들</Filter>
+    </Text>
+    <Text Include="아스키코드.txt">
+      <Filter>꿀팁들</Filter>
+    </Text>
+    <Text Include="유용한 단축키.txt">
+      <Filter>꿀팁들</Filter>
+    </Text>
+    <Text Include="이진수, 십진수.txt">
+      <Filter>꿀팁들</Filter>
+    </Text>
+    <Text Include="헤더.txt">
+      <Filter>꿀팁들</Filter>
+    </Text>
+    <Text Include="입출력.txt">
+      <Filter>꿀팁들</Filter>
+    </Text>
   </ItemGroup>
 </Project>

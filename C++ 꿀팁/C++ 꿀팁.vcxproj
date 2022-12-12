@@ -129,12 +129,20 @@
   <ItemGroup>
     <Text Include="DFS BFS.txt" />
     <Text Include="map.txt" />
+    <Text Include="pair.txt" />
     <Text Include="queue.txt" />
     <Text Include="string.txt" />
     <Text Include="vector.txt" />
     <Text Include="기타 꿀팁.txt" />
+    <Text Include="배열.txt" />
+    <Text Include="상수, 변수 선언.txt" />
+    <Text Include="아스키코드.txt" />
     <Text Include="에라스토테네스의 체.txt" />
+    <Text Include="유용한 단축키.txt" />
+    <Text Include="이진수, 십진수.txt" />
     <Text Include="이진탐색.txt" />
+    <Text Include="입출력.txt" />
+    <Text Include="헤더.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
