@@ -131,6 +131,7 @@
     <Text Include="map.txt" />
     <Text Include="pair.txt" />
     <Text Include="queue.txt" />
+    <Text Include="sstream.txt" />
     <Text Include="string.txt" />
     <Text Include="vector.txt" />
     <Text Include="기타 꿀팁.txt" />

@@ -55,5 +55,8 @@
     <Text Include="입출력.txt">
       <Filter>꿀팁들</Filter>
     </Text>
+    <Text Include="sstream.txt">
+      <Filter>꿀팁들</Filter>
+    </Text>
   </ItemGroup>
 </Project>
