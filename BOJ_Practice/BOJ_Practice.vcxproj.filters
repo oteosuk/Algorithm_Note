@@ -22,5 +22,6 @@
     <ClCompile Include="Class3\BOJ 1927.cpp">
       <Filter>Class3</Filter>
     </ClCompile>
+    <ClCompile Include="Bronze3\BOJ 17618.cpp" />
   </ItemGroup>
 </Project>
