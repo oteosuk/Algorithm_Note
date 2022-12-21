@@ -16,6 +16,28 @@
 
 ==============================================================================
 
+[공백까지 입력받기]
+
+1. getline
+
+	string s;
+	getline(cin, s);
+	cout << s;
+
+2. cin.getline => 특정문자로 입력을 종료시킬 수 있다.
+
+	char s[100];
+    cin.getline(s,100,'\n');
+    cout << s;
+
+3. gets_s
+
+	char s[100];
+    gets_s(s, sizeof(s));
+    cout << s;
+
+==============================================================================
+
 [개행문자가 입력될떄까지 문자열 반복문]
 
 for(j=0;s[j]!='\0';j++)
@@ -94,4 +116,31 @@ memset을 쓰려면 cstring (또는 memory.h)를 써야한다.
 
 ==============================================================================
 
+[공백 단위로 자르기]
+
+#include <ssteram>
+
+string s;
+getline(cin, s); // "54 353"
+
+stringstream ss(s);
+int a, b;
+ss >> a >> b;
+
+// a = 54
+// b = 353
+
+//계속 반복해서 출력하고싶다면
+while (ss >> num) {
+	cout << num << endl;
+}
+54 출력, 353 출력
+
+//stringstream 초기화 하는법
+int num;
+string str = "123 456";
+stringstream stream; 
+stream.str(str);
+while(stream >> num ) cout << num << endl;
+stream.str("");//초기화
 ==============================================================================

@@ -16,6 +16,14 @@
     <ClCompile Include="Bronze3\BOJ 2991.cpp">
       <Filter>Bronze3</Filter>
     </ClCompile>
-    <ClCompile Include="Bronze3\BOJ 15780.cpp" />
+    <ClCompile Include="Bronze3\BOJ 15780.cpp">
+      <Filter>Bronze3</Filter>
+    </ClCompile>
+    <ClCompile Include="Class3\소스.cpp">
+      <Filter>Class3</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ 17618.cpp">
+      <Filter>Bronze3</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
