@@ -44,3 +44,12 @@ sort(vec.begin(), vec.end(), compare); => 위에 작성한 compare 함수 조건에 맞게 �
 
 for (string x : v)
 		cout << x << endl;
+
+=============================================================================
+
+[배열 vector / 2차원 vector]
+
+vector<int> v[1001];
+이런식으로 배열 벡터로 사용할 수 있다.
+v[0].push_back(넣고싶은값)
+v[5].push_back(넣고싶은값)

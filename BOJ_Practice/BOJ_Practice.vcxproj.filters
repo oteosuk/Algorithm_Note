@@ -19,11 +19,12 @@
     <ClCompile Include="Bronze3\BOJ 15780.cpp">
       <Filter>Bronze3</Filter>
     </ClCompile>
-    <ClCompile Include="Class3\소스.cpp">
+    <ClCompile Include="Class3\BOJ 1927.cpp">
       <Filter>Class3</Filter>
     </ClCompile>
-    <ClCompile Include="BOJ 17618.cpp">
-      <Filter>Bronze3</Filter>
-    </ClCompile>
+    <ClCompile Include="Bronze3\BOJ 17618.cpp" />
+    <ClCompile Include="Class3\BOJ 11729.cpp" />
+    <ClCompile Include="Class3\BOJ 2630.cpp" />
+    <ClCompile Include="Class3\BOJ 11724.cpp" />
   </ItemGroup>
 </Project>
