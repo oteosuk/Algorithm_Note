@@ -23,5 +23,8 @@
       <Filter>Class3</Filter>
     </ClCompile>
     <ClCompile Include="Bronze3\BOJ 17618.cpp" />
+    <ClCompile Include="Class3\BOJ 11729.cpp" />
+    <ClCompile Include="Class3\BOJ 2630.cpp" />
+    <ClCompile Include="Class3\BOJ 11724.cpp" />
   </ItemGroup>
 </Project>

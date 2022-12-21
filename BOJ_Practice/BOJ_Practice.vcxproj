@@ -130,11 +130,14 @@
     <ClCompile Include="Bronze3\BOJ 15780.cpp" />
     <ClCompile Include="Bronze3\BOJ 2991.cpp" />
     <ClCompile Include="Bronze3\BOJ 17618.cpp" />
+    <ClCompile Include="Class3\BOJ 11724.cpp" />
+    <ClCompile Include="Class3\BOJ 11729.cpp" />
     <ClCompile Include="Class3\BOJ 1260.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
       </ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="Class3\BOJ 1927.cpp" />
+    <ClCompile Include="Class3\BOJ 2630.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
