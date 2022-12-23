@@ -24,7 +24,8 @@
     </ClCompile>
     <ClCompile Include="Bronze3\BOJ 17618.cpp" />
     <ClCompile Include="Class3\BOJ 11729.cpp" />
-    <ClCompile Include="Class3\BOJ 2630.cpp" />
+    <ClCompile Include="Class3\BOJ 2630%28분할정복,재귀%29.cpp" />
     <ClCompile Include="Class3\BOJ 11724.cpp" />
+    <ClCompile Include="Class3\BOJ 18870(벡터중복원소제거).cpp" />
   </ItemGroup>
 </Project>

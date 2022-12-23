@@ -128,6 +128,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <Text Include="DFS BFS.txt" />
+    <Text Include="lower_bound,upper_bound.txt" />
     <Text Include="map.txt" />
     <Text Include="pair.txt" />
     <Text Include="queue.txt" />
