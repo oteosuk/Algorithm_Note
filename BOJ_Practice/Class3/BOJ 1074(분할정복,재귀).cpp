@@ -11,7 +11,7 @@ void Z(int y, int x, int size)
 {
     if (y == r && x == c)
     {
-        cout << ans << '\n';
+        cout << ans << endl;
         return;
     }
 
