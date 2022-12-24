@@ -23,7 +23,7 @@ define을 사용하였을 경우는 define으로 정의된 값들을 치환하는 과정에서
 
 - int arr[5]; 로만 해버리면 그냥 쓰레기값들이 들어가있다.
 
-- using long long = ll / typedef long long ll 둘다 되는데 using이 왠만하면 좋다.
+- using ll = long long / typedef long long ll 둘다 되는데 using이 왠만하면 좋다.
 
 - #define endl ‘\n’ 로 endl를 치환해주는 행위는 using 이나 typedef로 불가능(오류뜸) 
 ⇒ 기존에 endl 가 이미 c++에 포함되어있는 기능인데 재정의하면 기존에 있는 endl가 애매해지기 때문

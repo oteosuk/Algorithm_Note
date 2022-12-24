@@ -40,5 +40,6 @@
     <ClCompile Include="Bronze3\BOJ 17618.cpp">
       <Filter>Bronze3</Filter>
     </ClCompile>
+    <ClCompile Include="Silver1\BOJ 17271(DP).cpp" />
   </ItemGroup>
 </Project>
