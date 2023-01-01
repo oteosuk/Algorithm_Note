@@ -1,29 +1,37 @@
 #include <iostream>
+#include <string>
 
 using namespace std;
 
 #define endl '\n'
 
-using ll = long long;
-const int mod = 1000000007;
-
-int dp[10000];
-
 int main() {
-    ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
+	ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
 
-	int N, M; cin >> N >> M;
+	string s;
+	cin >> s;
 
-	dp[0] = 1;
+	int ans = 0;
+	string num;
+	bool minus = false;
 
-	for (int i = 1; i <= N; i++) {
-		dp[i] = dp[i - 1];
-
-		if (i - M >= 0) 
-			dp[i] = (dp[i] + dp[i - M]) % mod;
+	for (int i = 0; i <= s.size(); i++) {
+		if (i == s.size() || s[i] == '-' || s[i] == '+') {
+			if (minus) {
+				ans -= stoi(num);
+				num = "";
+				minus = true;
+			}
+			else {
+				ans += stoi(num);
+				num = "";
+			}
+		}
+		else 
+			num += s[i];
 	}
 
-	cout << dp[N];
-    
+	cout << ans;
+
 	return 0;
 }
