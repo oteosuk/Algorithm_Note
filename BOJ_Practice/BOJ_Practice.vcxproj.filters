@@ -46,5 +46,8 @@
     <ClCompile Include="BOJ 1541.cpp">
       <Filter>Class3</Filter>
     </ClCompile>
+    <ClCompile Include="Class3\BOJ 1697(BFS).cpp">
+      <Filter>Class3</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
