@@ -127,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="BOJ 1541.cpp" />
+    <ClCompile Include="BOJ 1541%28문자열%29.cpp" />
     <ClCompile Include="Bronze3\BOJ 15780.cpp" />
     <ClCompile Include="Bronze3\BOJ 2991.cpp" />
     <ClCompile Include="Bronze3\BOJ 17618.cpp" />
