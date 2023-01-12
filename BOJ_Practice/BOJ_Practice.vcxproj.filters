@@ -37,6 +37,6 @@
     <ClCompile Include="Class3\BOJ 1697(BFS).cpp">
       <Filter>Class3</Filter>
     </ClCompile>
-    <ClCompile Include="Class3\BOJ 1780(분할정복,재귀).cpp" />
+    <ClCompile Include="Class3\BOJ 1780(분할정복, 재귀).cpp" />
   </ItemGroup>
 </Project>

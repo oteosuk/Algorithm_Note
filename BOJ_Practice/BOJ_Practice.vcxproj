@@ -136,7 +136,7 @@
       </ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="Class3\BOJ 1697(BFS).cpp" />
-    <ClCompile Include="Class3\BOJ 1780(분할정복,재귀).cpp" />
+    <ClCompile Include="Class3\BOJ 1780(분할정복, 재귀).cpp" />
     <ClCompile Include="Class3\BOJ 18870(벡터중복원소제거).cpp" />
     <ClCompile Include="Class3\BOJ 1927%28우선순위큐%29.cpp" />
     <ClCompile Include="Class3\BOJ 2630%28분할정복,재귀%29.cpp" />
