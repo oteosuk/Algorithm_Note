@@ -22,7 +22,7 @@ void cut(int x, int y, int size) {
 		for (int j = y; j < y + size; j++) {
 			if (paper[i][j] != temp) {
 				if (size >= 3) {
-					size = size/3;
+					size = size / 3;
 					for (int k = 0; k < 3; k++) {
 						for (int p = 0; p < 3; p++) {
 							cut(x + size * k, y + size * p, size);

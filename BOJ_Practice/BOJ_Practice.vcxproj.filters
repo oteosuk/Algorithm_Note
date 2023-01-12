@@ -13,12 +13,6 @@
     <ClCompile Include="Class3\BOJ 1260%28BFS, DFS%29.cpp">
       <Filter>Class3</Filter>
     </ClCompile>
-    <ClCompile Include="Bronze3\BOJ 2991.cpp">
-      <Filter>Bronze3</Filter>
-    </ClCompile>
-    <ClCompile Include="Bronze3\BOJ 15780.cpp">
-      <Filter>Bronze3</Filter>
-    </ClCompile>
     <ClCompile Include="Class3\BOJ 1927%28우선순위큐%29.cpp">
       <Filter>Class3</Filter>
     </ClCompile>
@@ -37,17 +31,12 @@
     <ClCompile Include="Class3\BOJ 18870(벡터중복원소제거).cpp">
       <Filter>Class3</Filter>
     </ClCompile>
-    <ClCompile Include="Bronze3\BOJ 17618.cpp">
-      <Filter>Bronze3</Filter>
-    </ClCompile>
-    <ClCompile Include="Silver1\BOJ 17271(DP).cpp">
-      <Filter>Class3</Filter>
-    </ClCompile>
-    <ClCompile Include="BOJ 1541%28문자열%29.cpp">
+    <ClCompile Include="Class3\BOJ 1541%28문자열%29.cpp">
       <Filter>Class3</Filter>
     </ClCompile>
     <ClCompile Include="Class3\BOJ 1697(BFS).cpp">
       <Filter>Class3</Filter>
     </ClCompile>
+    <ClCompile Include="Class3\BOJ 1780(분할정복,재귀).cpp" />
   </ItemGroup>
 </Project>
