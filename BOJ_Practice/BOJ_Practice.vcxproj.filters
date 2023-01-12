@@ -38,5 +38,7 @@
       <Filter>Class3</Filter>
     </ClCompile>
     <ClCompile Include="Class3\BOJ 1780(분할정복, 재귀).cpp" />
+    <ClCompile Include="Class3\BOJ 11403(그래프,플로이드워셜).cpp" />
+    <ClCompile Include="Class3\BOJ 11286%28우선순위큐%29.cpp" />
   </ItemGroup>
 </Project>

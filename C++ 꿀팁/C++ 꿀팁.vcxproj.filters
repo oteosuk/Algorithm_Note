@@ -61,5 +61,8 @@
     <Text Include="lower_bound,upper_bound.txt">
       <Filter>꿀팁들</Filter>
     </Text>
+    <Text Include="플로이드워셜.txt">
+      <Filter>꿀팁들</Filter>
+    </Text>
   </ItemGroup>
 </Project>
