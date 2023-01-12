@@ -64,5 +64,8 @@
     <Text Include="플로이드워셜.txt">
       <Filter>꿀팁들</Filter>
     </Text>
+    <Text Include="최대공약수,최소공배수.txt">
+      <Filter>꿀팁들</Filter>
+    </Text>
   </ItemGroup>
 </Project>
