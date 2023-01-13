@@ -34,3 +34,19 @@ while(!pq.empty()){
 }
 
 4 3 2 1 출력
+
+========================================================
+
+[우선순위 큐 커스텀]
+
+ex) BOJ 1927
+
+struct compare {
+	bool operator()(int a, int b) {
+		if (abs(a) != abs(b))
+			return abs(a) > abs(b); // 오름차순
+		return a > b; // 오름차순
+	}
+};
+
+priority_queue<int, vector<int>, compare> pq;

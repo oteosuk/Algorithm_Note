@@ -127,10 +127,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="BOJ 1541%28문자열%29.cpp" />
-    <ClCompile Include="Bronze3\BOJ 15780.cpp" />
-    <ClCompile Include="Bronze3\BOJ 2991.cpp" />
-    <ClCompile Include="Bronze3\BOJ 17618.cpp" />
+    <ClCompile Include="Class3\BOJ 11403(그래프,플로이드워셜).cpp" />
+    <ClCompile Include="Class3\BOJ 1541%28문자열%29.cpp" />
     <ClCompile Include="Class3\BOJ 1074(분할정복,재귀).cpp" />
     <ClCompile Include="Class3\BOJ 11724%28BFS, DFS%29.cpp" />
     <ClCompile Include="Class3\BOJ 11729%28우선순위큐%29.cpp" />
@@ -139,11 +137,12 @@
       </ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="Class3\BOJ 1697(BFS).cpp" />
-    <ClCompile Include="Class3\BOJ 1780(분할정복,재귀).cpp" />
+    <ClCompile Include="Class3\BOJ 1780(분할정복, 재귀).cpp" />
     <ClCompile Include="Class3\BOJ 18870(벡터중복원소제거).cpp" />
     <ClCompile Include="Class3\BOJ 1927%28우선순위큐%29.cpp" />
+    <ClCompile Include="Class3\BOJ 11286%28우선순위큐%29.cpp" />
     <ClCompile Include="Class3\BOJ 2630%28분할정복,재귀%29.cpp" />
-    <ClCompile Include="Silver1\BOJ 17271(DP).cpp" />
+    <ClCompile Include="Class3\BOJ 6064(중국인나머지정리).cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

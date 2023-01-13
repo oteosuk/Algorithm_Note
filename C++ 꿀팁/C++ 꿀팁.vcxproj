@@ -144,6 +144,8 @@
     <Text Include="이진수, 십진수.txt" />
     <Text Include="이진탐색.txt" />
     <Text Include="입출력.txt" />
+    <Text Include="최대공약수,최소공배수.txt" />
+    <Text Include="플로이드워셜.txt" />
     <Text Include="헤더.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
