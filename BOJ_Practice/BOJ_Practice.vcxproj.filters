@@ -49,5 +49,6 @@
     <ClCompile Include="Class3\BOJ 11403(그래프,플로이드워셜).cpp">
       <Filter>Class3</Filter>
     </ClCompile>
+    <ClCompile Include="Class3\BOJ 1931.cpp" />
   </ItemGroup>
 </Project>
