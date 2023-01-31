@@ -141,9 +141,10 @@
     <ClCompile Include="Class3\BOJ 18870(벡터중복원소제거).cpp" />
     <ClCompile Include="Class3\BOJ 1927%28우선순위큐%29.cpp" />
     <ClCompile Include="Class3\BOJ 11286%28우선순위큐%29.cpp" />
-    <ClCompile Include="Class3\BOJ 1931.cpp" />
+    <ClCompile Include="Class3\BOJ 1931%28Pair, 그리디%29.cpp" />
     <ClCompile Include="Class3\BOJ 2630%28분할정복,재귀%29.cpp" />
     <ClCompile Include="Class3\BOJ 6064(중국인나머지정리).cpp" />
+    <ClCompile Include="Class3\BOJ 7576(DFS, BFS).cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
