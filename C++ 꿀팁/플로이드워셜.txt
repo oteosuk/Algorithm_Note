@@ -13,3 +13,21 @@ void floyd(void) {
 				if (graph[i][k] && graph[k][j])
 					graph[i][j] = 1;
 }
+
+¶Ç´Â
+
+for (int k = 1; k <= N; k++)
+    {
+        for (int i = 1; i <= N; i++)
+        {
+            for (int j = 1; j <= N; j++)
+            {
+                if (i == j) continue;
+                else if (MAP[i][k] != 0 && MAP[k][j] != 0)
+                {
+                    if (MAP[i][j] == 0) MAP[i][j] = MAP[i][k] + MAP[k][j];
+                    else MAP[i][j] = Min(MAP[i][j], MAP[i][k] + MAP[k][j]);
+                }
+            }
+        }
+    }

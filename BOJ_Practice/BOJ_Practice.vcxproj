@@ -128,6 +128,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Class3\BOJ 11403(그래프,플로이드워셜).cpp" />
+    <ClCompile Include="Class3\BOJ 1389(플로이드워셜).cpp" />
     <ClCompile Include="Class3\BOJ 1541%28문자열%29.cpp" />
     <ClCompile Include="Class3\BOJ 1074(분할정복,재귀).cpp" />
     <ClCompile Include="Class3\BOJ 11724%28BFS, DFS%29.cpp" />
