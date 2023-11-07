@@ -3,36 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BackJoon", "BackJoon\BackJoon.vcxproj", "{A458B0E8-9993-4D0C-8226-B16AB01784FD}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C++ 알고리즘 노트", "C++ 알고리즘 노트\C++ 알고리즘 노트.vcxproj", "{F3FA7439-4322-4E10-ABF6-D2CE54F6CB0F}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C++ 알고리즘노트", "C++ 알고리즘노트\C++ 알고리즘노트.vcxproj", "{5D869C54-AF0F-4F6F-B35A-9064869007AA}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "C++ 알고리즘 노트", "C++ 알고리즘 노트", "{BF6F9876-F63C-475E-B333-63ABCEB2D69D}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "꿀팁들", "꿀팁들", "{D1B1A8F7-C89C-4073-9C02-CB1B702EE133}"
-	ProjectSection(SolutionItems) = preProject
-		..\C++ 알고리즘 노트\꿀팁들\DFS BFS.txt = ..\C++ 알고리즘 노트\꿀팁들\DFS BFS.txt
-		..\C++ 알고리즘 노트\꿀팁들\lower_bound,upper_bound.txt = ..\C++ 알고리즘 노트\꿀팁들\lower_bound,upper_bound.txt
-		..\C++ 알고리즘 노트\꿀팁들\map.txt = ..\C++ 알고리즘 노트\꿀팁들\map.txt
-		..\C++ 알고리즘 노트\꿀팁들\pair.txt = ..\C++ 알고리즘 노트\꿀팁들\pair.txt
-		..\C++ 알고리즘 노트\꿀팁들\queue.txt = ..\C++ 알고리즘 노트\꿀팁들\queue.txt
-		..\C++ 알고리즘 노트\꿀팁들\set.txt = ..\C++ 알고리즘 노트\꿀팁들\set.txt
-		..\C++ 알고리즘 노트\꿀팁들\sstream.txt = ..\C++ 알고리즘 노트\꿀팁들\sstream.txt
-		..\C++ 알고리즘 노트\꿀팁들\string.txt = ..\C++ 알고리즘 노트\꿀팁들\string.txt
-		test.txt = test.txt
-		..\C++ 알고리즘 노트\꿀팁들\vector.txt = ..\C++ 알고리즘 노트\꿀팁들\vector.txt
-		..\C++ 알고리즘 노트\꿀팁들\배열.txt = ..\C++ 알고리즘 노트\꿀팁들\배열.txt
-		..\C++ 알고리즘 노트\꿀팁들\상수, 변수 선언.txt = ..\C++ 알고리즘 노트\꿀팁들\상수, 변수 선언.txt
-		..\C++ 알고리즘 노트\꿀팁들\아스키코드.txt = ..\C++ 알고리즘 노트\꿀팁들\아스키코드.txt
-		..\C++ 알고리즘 노트\꿀팁들\에라스토테네스의 체.txt = ..\C++ 알고리즘 노트\꿀팁들\에라스토테네스의 체.txt
-		..\C++ 알고리즘 노트\꿀팁들\유용한 단축키.txt = ..\C++ 알고리즘 노트\꿀팁들\유용한 단축키.txt
-		..\C++ 알고리즘 노트\꿀팁들\이진수, 십진수.txt = ..\C++ 알고리즘 노트\꿀팁들\이진수, 십진수.txt
-		..\C++ 알고리즘 노트\꿀팁들\이진탐색.txt = ..\C++ 알고리즘 노트\꿀팁들\이진탐색.txt
-		..\C++ 알고리즘 노트\꿀팁들\입출력.txt = ..\C++ 알고리즘 노트\꿀팁들\입출력.txt
-		..\C++ 알고리즘 노트\꿀팁들\최대공약수,최소공배수.txt = ..\C++ 알고리즘 노트\꿀팁들\최대공약수,최소공배수.txt
-		..\C++ 알고리즘 노트\꿀팁들\플로이드워셜.txt = ..\C++ 알고리즘 노트\꿀팁들\플로이드워셜.txt
-		..\C++ 알고리즘 노트\꿀팁들\헤더.txt = ..\C++ 알고리즘 노트\꿀팁들\헤더.txt
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BOJ_Practice", "BOJ_Practice\BOJ_Practice.vcxproj", "{C74FB13C-A4E3-408B-9733-42AB0F2F075B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -42,28 +15,25 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A458B0E8-9993-4D0C-8226-B16AB01784FD}.Debug|x64.ActiveCfg = Debug|x64
-		{A458B0E8-9993-4D0C-8226-B16AB01784FD}.Debug|x64.Build.0 = Debug|x64
-		{A458B0E8-9993-4D0C-8226-B16AB01784FD}.Debug|x86.ActiveCfg = Debug|Win32
-		{A458B0E8-9993-4D0C-8226-B16AB01784FD}.Debug|x86.Build.0 = Debug|Win32
-		{A458B0E8-9993-4D0C-8226-B16AB01784FD}.Release|x64.ActiveCfg = Release|x64
-		{A458B0E8-9993-4D0C-8226-B16AB01784FD}.Release|x64.Build.0 = Release|x64
-		{A458B0E8-9993-4D0C-8226-B16AB01784FD}.Release|x86.ActiveCfg = Release|Win32
-		{A458B0E8-9993-4D0C-8226-B16AB01784FD}.Release|x86.Build.0 = Release|Win32
-		{5D869C54-AF0F-4F6F-B35A-9064869007AA}.Debug|x64.ActiveCfg = Debug|x64
-		{5D869C54-AF0F-4F6F-B35A-9064869007AA}.Debug|x64.Build.0 = Debug|x64
-		{5D869C54-AF0F-4F6F-B35A-9064869007AA}.Debug|x86.ActiveCfg = Debug|Win32
-		{5D869C54-AF0F-4F6F-B35A-9064869007AA}.Debug|x86.Build.0 = Debug|Win32
-		{5D869C54-AF0F-4F6F-B35A-9064869007AA}.Release|x64.ActiveCfg = Release|x64
-		{5D869C54-AF0F-4F6F-B35A-9064869007AA}.Release|x64.Build.0 = Release|x64
-		{5D869C54-AF0F-4F6F-B35A-9064869007AA}.Release|x86.ActiveCfg = Release|Win32
-		{5D869C54-AF0F-4F6F-B35A-9064869007AA}.Release|x86.Build.0 = Release|Win32
+		{F3FA7439-4322-4E10-ABF6-D2CE54F6CB0F}.Debug|x64.ActiveCfg = Debug|x64
+		{F3FA7439-4322-4E10-ABF6-D2CE54F6CB0F}.Debug|x64.Build.0 = Debug|x64
+		{F3FA7439-4322-4E10-ABF6-D2CE54F6CB0F}.Debug|x86.ActiveCfg = Debug|Win32
+		{F3FA7439-4322-4E10-ABF6-D2CE54F6CB0F}.Debug|x86.Build.0 = Debug|Win32
+		{F3FA7439-4322-4E10-ABF6-D2CE54F6CB0F}.Release|x64.ActiveCfg = Release|x64
+		{F3FA7439-4322-4E10-ABF6-D2CE54F6CB0F}.Release|x64.Build.0 = Release|x64
+		{F3FA7439-4322-4E10-ABF6-D2CE54F6CB0F}.Release|x86.ActiveCfg = Release|Win32
+		{F3FA7439-4322-4E10-ABF6-D2CE54F6CB0F}.Release|x86.Build.0 = Release|Win32
+		{C74FB13C-A4E3-408B-9733-42AB0F2F075B}.Debug|x64.ActiveCfg = Debug|x64
+		{C74FB13C-A4E3-408B-9733-42AB0F2F075B}.Debug|x64.Build.0 = Debug|x64
+		{C74FB13C-A4E3-408B-9733-42AB0F2F075B}.Debug|x86.ActiveCfg = Debug|Win32
+		{C74FB13C-A4E3-408B-9733-42AB0F2F075B}.Debug|x86.Build.0 = Debug|Win32
+		{C74FB13C-A4E3-408B-9733-42AB0F2F075B}.Release|x64.ActiveCfg = Release|x64
+		{C74FB13C-A4E3-408B-9733-42AB0F2F075B}.Release|x64.Build.0 = Release|x64
+		{C74FB13C-A4E3-408B-9733-42AB0F2F075B}.Release|x86.ActiveCfg = Release|Win32
+		{C74FB13C-A4E3-408B-9733-42AB0F2F075B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{D1B1A8F7-C89C-4073-9C02-CB1B702EE133} = {BF6F9876-F63C-475E-B333-63ABCEB2D69D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2B13E51B-D236-4AFB-9771-74E703A491A7}
