@@ -19,10 +19,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <VCProjectVersion>16.0</VCProjectVersion>
+    <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{bec4e603-b6ef-446a-9e44-8a37eb9bac22}</ProjectGuid>
-    <RootNamespace>BOJPractice</RootNamespace>
+    <ProjectGuid>{a458b0e8-9993-4d0c-8226-b16ab01784fd}</ProjectGuid>
+    <RootNamespace>BackJoon</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,30 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Class3\BOJ 11403(그래프,플로이드워셜).cpp" />
-    <ClCompile Include="Class3\BOJ 1389(플로이드워셜).cpp" />
-    <ClCompile Include="Class3\BOJ 1541%28문자열%29.cpp" />
-    <ClCompile Include="Class3\BOJ 1074(분할정복,재귀).cpp" />
-    <ClCompile Include="Class3\BOJ 11724%28BFS, DFS%29.cpp" />
-    <ClCompile Include="Class3\BOJ 11729%28우선순위큐%29.cpp" />
-    <ClCompile Include="Class3\BOJ 1260%28BFS, DFS%29.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-      </ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Class3\BOJ 1697(BFS).cpp" />
-    <ClCompile Include="Class3\BOJ 1780(분할정복, 재귀).cpp" />
-    <ClCompile Include="Class3\BOJ 18870(벡터중복원소제거).cpp" />
-    <ClCompile Include="Class3\BOJ 1927%28우선순위큐%29.cpp" />
-    <ClCompile Include="Class3\BOJ 11286%28우선순위큐%29.cpp" />
-<<<<<<< Updated upstream
-    <ClCompile Include="Class3\BOJ 1931%28Pair, 그리디%29.cpp" />
-=======
-    <ClCompile Include="Class3\BOJ 1931.cpp" />
->>>>>>> Stashed changes
-    <ClCompile Include="Class3\BOJ 2630%28분할정복,재귀%29.cpp" />
-    <ClCompile Include="Class3\BOJ 6064(중국인나머지정리).cpp" />
-    <ClCompile Include="Class3\BOJ 7576%28BFS%29.cpp" />
-    <ClCompile Include="Class3\BOJ 7662(SET).cpp" />
+    <ClCompile Include="BackJoon.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

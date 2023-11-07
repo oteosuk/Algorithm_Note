@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -19,10 +19,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <VCProjectVersion>16.0</VCProjectVersion>
+    <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{442567c9-a321-46a2-9311-1baf5dd2ee7c}</ProjectGuid>
-    <RootNamespace>Test</RootNamespace>
+    <ProjectGuid>{5d869c54-af0f-4f6f-b35a-9064869007aa}</ProjectGuid>
+    <RootNamespace>C알고리즘노트</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -126,6 +126,61 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="백준문제들\Class3\BOJ 1074(분할정복,재귀).cpp" />
+    <ClCompile Include="백준문제들\Class3\BOJ 11286(우선순위큐).cpp" />
+    <ClCompile Include="백준문제들\Class3\BOJ 11403(그래프,플로이드워셜).cpp" />
+    <ClCompile Include="백준문제들\Class3\BOJ 11724(BFS, DFS).cpp" />
+    <ClCompile Include="백준문제들\Class3\BOJ 11729(우선순위큐).cpp" />
+    <ClCompile Include="백준문제들\Class3\BOJ 1260(BFS, DFS).cpp" />
+    <ClCompile Include="백준문제들\Class3\BOJ 1389(BFS).cpp" />
+    <ClCompile Include="백준문제들\Class3\BOJ 1389(플로이드워셜).cpp" />
+    <ClCompile Include="백준문제들\Class3\BOJ 1541(문자열).cpp" />
+    <ClCompile Include="백준문제들\Class3\BOJ 1697(BFS).cpp" />
+    <ClCompile Include="백준문제들\Class3\BOJ 1780(분할정복, 재귀).cpp" />
+    <ClCompile Include="백준문제들\Class3\BOJ 18870(벡터중복원소제거).cpp" />
+    <ClCompile Include="백준문제들\Class3\BOJ 1927(우선순위큐).cpp" />
+    <ClCompile Include="백준문제들\Class3\BOJ 1931(Pair, 그리디).cpp" />
+    <ClCompile Include="백준문제들\Class3\BOJ 2630(분할정복,재귀).cpp" />
+    <ClCompile Include="백준문제들\Class3\BOJ 6064(중국인나머지정리).cpp" />
+    <ClCompile Include="백준문제들\Class3\BOJ 7576(BFS).cpp" />
+    <ClCompile Include="백준문제들\Class3\BOJ 7662(SET).cpp" />
+    <ClCompile Include="코드들\기본C++세팅 코드.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="꿀팁들\DFS BFS.txt" />
+    <Text Include="꿀팁들\lower_bound,upper_bound.txt" />
+    <Text Include="꿀팁들\map.txt" />
+    <Text Include="꿀팁들\pair.txt" />
+    <Text Include="꿀팁들\queue.txt" />
+    <Text Include="꿀팁들\set.txt" />
+    <Text Include="꿀팁들\sstream.txt" />
+    <Text Include="꿀팁들\string.txt" />
+    <Text Include="꿀팁들\vector.txt" />
+    <Text Include="꿀팁들\배열.txt" />
+    <Text Include="꿀팁들\상수, 변수 선언.txt" />
+    <Text Include="꿀팁들\아스키코드.txt" />
+    <Text Include="꿀팁들\에라스토테네스의 체.txt" />
+    <Text Include="꿀팁들\유용한 단축키.txt" />
+    <Text Include="꿀팁들\이진수, 십진수.txt" />
+    <Text Include="꿀팁들\이진탐색.txt" />
+    <Text Include="꿀팁들\입출력.txt" />
+    <Text Include="꿀팁들\최대공약수,최소공배수.txt" />
+    <Text Include="꿀팁들\플로이드워셜.txt" />
+    <Text Include="꿀팁들\헤더.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="파이썬 알고리즘노트예시\Algorithm\bfs.py" />
+    <None Include="파이썬 알고리즘노트예시\Algorithm\dfs.py" />
+    <None Include="파이썬 알고리즘노트예시\Algorithm\dijkstra.py" />
+    <None Include="파이썬 알고리즘노트예시\Algorithm\flloyd-warshall.py" />
+    <None Include="파이썬 알고리즘노트예시\Algorithm\prim.py" />
+    <None Include="파이썬 알고리즘노트예시\Data Structure\비선형\그래프\graph.py" />
+    <None Include="파이썬 알고리즘노트예시\Data Structure\비선형\그래프\최단 경로 문제\Shortest_path.py" />
+    <None Include="파이썬 알고리즘노트예시\Data Structure\비선형\그래프\트리\Tree.py" />
+    <None Include="파이썬 알고리즘노트예시\Data Structure\비선형\그래프\트리\트라이\Trie.py" />
+    <None Include="파이썬 알고리즘노트예시\Data Structure\비선형\그래프\트리\힙\Heap.py" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
