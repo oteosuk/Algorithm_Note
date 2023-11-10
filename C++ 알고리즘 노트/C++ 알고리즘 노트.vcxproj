@@ -146,7 +146,7 @@
     <ClCompile Include="C++ 알고리즘 노트\문제_백준\Class3\BOJ 6064%28중국인나머지정리%29.cpp" />
     <ClCompile Include="C++ 알고리즘 노트\문제_백준\Class3\BOJ 7576%28BFS%29.cpp" />
     <ClCompile Include="C++ 알고리즘 노트\문제_백준\Class3\BOJ 7662%28SET%29.cpp" />
-    <ClCompile Include="C++ 알고리즘 노트\코드스니펫\기본C++세팅 코드.cpp" />
+    <ClCompile Include="C++ 알고리즘 노트\코드양식\기본C++세팅 코드.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="C++ 알고리즘 노트\알고리즘정리\DFS BFS.txt" />

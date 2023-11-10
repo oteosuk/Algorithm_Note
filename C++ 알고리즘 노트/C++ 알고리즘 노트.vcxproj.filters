@@ -19,7 +19,7 @@
     <ClCompile Include="C++ 알고리즘 노트\문제_백준\Class3\BOJ 11724%28BFS, DFS%29.cpp" />
     <ClCompile Include="C++ 알고리즘 노트\문제_백준\Class3\BOJ 11729%28우선순위큐%29.cpp" />
     <ClCompile Include="C++ 알고리즘 노트\문제_백준\Class3\BOJ 18870%28벡터중복원소제거%29.cpp" />
-    <ClCompile Include="C++ 알고리즘 노트\코드스니펫\기본C++세팅 코드.cpp" />
+    <ClCompile Include="C++ 알고리즘 노트\코드양식\기본C++세팅 코드.cpp" />
     <ClCompile Include="C++ 알고리즘 노트\문제_백준\Class2\BOJ 18110%28구현%29.cpp" />
   </ItemGroup>
   <ItemGroup>
