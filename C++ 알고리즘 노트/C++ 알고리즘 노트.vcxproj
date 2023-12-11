@@ -188,6 +188,7 @@
     <None Include="C++ 알고리즘 노트\파이썬 알고리즘노트예시\Data Structure\선형\스택, 큐\Stack.py" />
     <None Include="C++ 알고리즘 노트\파이썬 알고리즘노트예시\Data Structure\선형\연결 리스트\Linked_list.py" />
     <None Include="C++ 알고리즘 노트\파이썬 알고리즘노트예시\Data Structure\선형\해시 테이블\Hash_table.py" />
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
